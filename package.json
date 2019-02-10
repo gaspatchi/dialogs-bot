@@ -1,0 +1,38 @@
+{
+	"name": "dialogs-bot",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon --exec babel-node -- index.js",
+		"build": "babel-node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gaspatchi/dialogs-bot.git"
+	},
+	"author": "Nikita Berezhnoy",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/gaspatchi/dialogs-bot/issues"
+	},
+	"homepage": "https://github.com/gaspatchi/dialogs-bot#readme",
+	"dependencies": {
+		"axios": "^0.18.0",
+		"fuse.js": "^3.2.0",
+		"koa": "^2.5.1",
+		"koa-bodyparser": "^4.2.1",
+		"lodash": "^4.17.10",
+		"mysql2": "^1.5.3",
+		"pg": "^7.4.3",
+		"pg-hstore": "^2.3.2",
+		"redis": "^2.8.0",
+		"sequelize": "^4.37.10"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"eslint": "^4.19.1",
+		"nodemon": "^1.17.5"
+	}
+}
